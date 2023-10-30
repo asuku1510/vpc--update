@@ -5,7 +5,7 @@ variable "private_cidr" {
 
 variable "availability_zones" {
   type    = list(string)
-  default = ["us-west-2a", "us-west-2b"]
+  default = ["us-west-1a", "us-west-1b"]
 }
 
 variable "public_cidr" {
